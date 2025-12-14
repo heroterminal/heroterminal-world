@@ -1,0 +1,13 @@
+To: support@fibre-lyon.fr
+Subject: Packet loss on line #442129
+
+My connection has been experiencing 12–18% packet loss
+between 19:00 and 23:00 for the last two weeks.
+
+This is unacceptable for forensic work. I require—
+
+This is pointless. 
+Your “Tier 1 Agents” will just tell me to reboot the router.
+
+[UNSENT]
+[Luc’s Note: Fixed it myself. Problem was on their end, obviously.]

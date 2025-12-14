@@ -1,0 +1,131 @@
+key: "2025-lvernier-the-midnight-harvest"
+title: "The Midnight Harvest"
+difficulty: "beginner"
+investigator: "lvernier"
+summary: A €4 million flask of "Grand Cru" rose oil is suspected to be a forgery. Luc must use olfactory senses and chemical physics to expose the swap without shattering the brand's reputation.
+
+author:
+  name: "HeroTerminal team"
+  github: "heroterminal"
+
+briefing: |
+  **LOCATION:** Grasse, Provence - The perfume capital of the world.
+  **DATE:** May 14, 2025 (The Rose Harvest)
+  **WEATHER:** Heavy, humid heat trapped in the valley. The air is thick with the overpowering, cloying scent of millions of blooming *Centifolia* roses.
+  **HANDLER:** Claire Vernier (CEO)
+  **CLIENT:** **Hélène Vasseur**, Matriarch of *Maison Vasseur* (A perfume dynasty supplying Chanel and Dior).
+
+  ---
+
+  ### THE SITUATION
+
+  Every decade, Maison Vasseur produces a "Grand Cru" perfume oil known as *L’Absolu*. It is extracted from a specific plot of roses harvested only at midnight. The 2025 batch, contained in a single 5-liter copper flask (valued at €4 million), was sealed in the vault yesterday.
+
+  This morning, the Head "Nose" (Perfumer) noticed the color was a fraction of a shade too pale. He suspects the oil has been swapped for a synthetic replica. Vasseur cannot call the police; a rumor that their "Pure Natural" oil is synthetic would destroy their brand's heritage status.
+
+  ### THE ASSIGNMENT
+
+  1.  **Authenticate:** Prove scientifically (without a digital lab) whether the oil is real or synthetic.
+  2.  **Trace:** Find who had the technical skill to create a convincing fake overnight.
+  3.  **Recover:** Find the real *L’Absolu* before it is smuggled out of France.
+   
+  ### CULTURAL LEARNINGS
+  1.  **Enfleurage & Extraction:** The ancient industrial process of turning delicate flowers into "Concrete" and "Absolute" using solvents.
+  2.  **The Nose (*Le Nez*):** The elite caste of perfumers who can identify 3,000 smells.
+  3.  **Refractometry:** How light bends differently through natural oils vs. synthetic molecules (Refractive Index).
+
+  ### HISTORICAL TRIVIA
+  Grasse wasn't always the capital of perfume. In the Middle Ages, it was the capital of leather tanning. The flowers were originally planted not for beauty, but to mask the unbearable stench of rotting animal skins and urine used to treat gloves for the aristocracy.
+
+leads:
+  - key: "lead-01"
+    title: "THE JOURNEY (The Hunch)"
+    reputation: 50
+    briefing: |
+      I drove the 504 up the winding hills to Grasse. The smell hit me miles away—a dizzying, sweet stench. To me, perfume is just a way for rich people to hide the smell of their own corruption.
+      
+      I entered the Vasseur Vault. The copper flask was cold. The liquid inside moved too perfectly. On the floor, I found a discarded *mouillette* (scent testing strip). It was stained with oil, but the smell... it wasn't Rose Centifolia.
+      
+      Identify the contaminant scent found on the strip.
+    solution:
+      logic:
+        all:
+          - submission:
+              contains: "tuberose"
+              title: "Identifying the Scent Signature"
+
+  - key: "lead-02"
+    title: "THE FACTORY (The Science)"
+    reputation: 50
+    briefing: |
+      The visual inspection isn't enough. I need physics.
+      
+      I've taken a sample of the suspect oil to the lab. Using a handheld Optical Refractometer, I can measure how light bends through the liquid.
+      
+      According to the *Manual of Aromatic Indices*:
+      * Natural Rose Absolute: **1.510**
+      * Synthetic Phenyl Ethyl Alcohol: **1.490**
+      
+      I held the device to the light. What is the reading on the scale?
+    solution:
+      logic:
+        all:
+          - submission:
+              contains: "1.490"
+              title: "Confirming the Forgery"
+
+  - key: "lead-03"
+    title: "THE RIVAL (The Nose)"
+    reputation: 25
+    briefing: |
+      It's a fake. A brilliant one. Only a master could create this overnight.
+      
+      The Tuberose scent points to one man. A disgraced former "Nose" for Maison Vasseur, fired 20 years ago, who still wears that specific flower as his signature. He lives in the crumbling Villa Ravel on the edge of town.
+      
+      Who is the suspect?
+    solution:
+      logic:
+        all:
+          - submission:
+              contains: "ravel"
+              title: "Identifying the Mastermind"
+
+  - key: "lead-04"
+    title: "THE FIELDS (The Recovery)"
+    reputation: 25
+    briefing: |
+      Ravel didn't hide his crime. He admitted it. He stole the oil to humiliate the Vasseurs, but he didn't keep it. He told me: "I gave it to those who actually made it."
+      
+      I went to the rose fields at twilight. The migrant pickers were finishing their shift. In the workers' shed, hidden under burlap sacks, I found the stolen object.
+      
+      What object did Luc recover?
+    solution:
+      logic:
+        all:
+          - submission:
+              contains: "copper flask"
+              title: "Recovering the Absolu"
+
+  - key: "lead-05"
+    title: "THE RESOLUTION (The Choice)"
+    reputation: 50
+    briefing: |
+      I have the flask. I can return it to Hélène Vasseur and make the rich richer. Or I can ensure no one profits.
+      
+      The workers know that if Vasseur gets this back, they get nothing. But if the batch is "ruined," Vasseur writes it off, and the workers keep the hush money Ravel gave them.
+      
+      I have a vial of **C4H8O2** in my kit. It smells of rancid butter and vomit. One drop will ruin the batch forever.
+      
+      What is the name of the chemical agent?
+    solution:
+      logic:
+        all:
+          - submission:
+              contains: "butyric acid"
+              title: "Sabotaging the Batch"
+
+herocert:
+  title: "The Midnight Harvest"
+  subtitle: "Solved: The Scent of Betrayal"
+  description: |
+    Luc Vernier confirmed the forgery using refractometry and tracked the thief to a disgraced perfumer. In the end, the "Grand Cru" was destroyed, saving the workers but leaving a bitter taste in the mouth of the Maison Vasseur. As Luc drove away, the smell of roses finally faded, replaced by the honest stench of diesel.

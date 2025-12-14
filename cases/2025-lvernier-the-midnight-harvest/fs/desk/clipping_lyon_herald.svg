@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <style>
+      .paper { fill: #f6ecd8; stroke: #2d2a24; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect x="16" y="16" width="868" height="1168" rx="16" class="paper"/>
+  <foreignObject x="28" y="28" width="844" height="1144">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:'Courier New', monospace; color:#2d2a24; line-height:1.4; padding:16px;">
+      <div style="font-family:'Georgia', serif; font-size:40px; font-weight:700; color:#1f2d25; letter-spacing:1px; margin-bottom:8px;">
+        LYON HERALD
+      </div>
+      <div style="font-family:'Impact', sans-serif; font-size:34px; color:#1f2d25; letter-spacing:1px; margin-bottom:6px;">
+        PERFUMER PRODIGY FIRED IN SCANDAL
+      </div>
+      <div style="font-family:'Courier New', monospace; font-size:16px; color:#2d2a24; font-weight:700; margin-bottom:14px;">
+        2005: Maison Vasseur expels Jean-Claude Ravel after purity probe
+      </div>
+
+      <hr style="border:0; border-top:2px solid rgba(45,42,36,0.2); margin:8px 0 14px 0;"/>
+
+      <div style="display:flex; gap:18px; align-items:flex-start; margin-bottom:12px;">
+        <div style="width:260px; height:180px; background:#dcd1b3; border:2px solid rgba(45,42,36,0.4); display:flex; align-items:center; justify-content:center; color:#1f2d25; font-weight:700;">
+          [PHOTO: Young Jean-Claude Ravel]
+        </div>
+        <p style="margin:0; font-size:15px;">
+          Sources inside Maison Vasseur say the rising star perfumer was caught experimenting with
+          synthetic additives inside a flagship rose formula. Management called the move "sabotage"
+          and expelled Ravel within 24 hours. No criminal charges were filed. Colleagues say the
+          chemist was obsessed with "purity" and the power of lab-made molecules to outshine nature.
+        </p>
+      </div>
+
+      <div style="font-family:'Courier New', monospace; font-size:15px; color:#174132; font-weight:700; margin-top:12px;">FALLOUT</div>
+      <p style="margin:4px 0 8px 0; font-size:15px;">
+        Vasseur issued a lifetime ban. Industry insiders whisper that Ravel retreated to the hills
+        of Grasse, experimenting with his signature flower: <strong>Tuberose</strong>.
+      </p>
+
+      <div style="font-family:'Courier New', monospace; font-size:15px; color:#174132; font-weight:700; margin-top:12px;">WHY IT MATTERS</div>
+      <p style="margin:4px 0 12px 0; font-size:15px;">
+        Maison Vasseur depends on heritage claims of "pure" rose absolute. Any hint of synthetic
+        blending could destroy their protected status and export contracts.
+      </p>
+
+      <div style="font-family:'Courier New', monospace; font-size:16px; color:#2d2a24; font-weight:700; margin-top:18px;">
+        Archive: June 18, 2005
+      </div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,101 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="paperNoiseElise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="5" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f7f1e3"/>
+  <rect width="100%" height="100%" fill="transparent" filter="url(#paperNoiseElise)" opacity="0.4" pointer-events="none"/>
+
+  <foreignObject x="0" y="0" width="800" height="1200">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="height:100%; box-sizing:border-box; padding:50px;">
+      <style>
+        .newsletter {
+          height: 100%;
+          box-sizing: border-box;
+          background: linear-gradient(180deg, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.01) 100%);
+          color: #1c1c1c;
+          font-family: 'Times New Roman', Georgia, serif;
+          line-height: 1.45;
+        }
+        .masthead { text-align: center; margin-bottom: 16px; }
+        .title {
+          font-size: 36px; font-weight: 900; letter-spacing: 1.5px;
+          border-bottom: 3px solid #1c1c1c; display: inline-block;
+          padding-bottom: 6px; text-transform: uppercase;
+        }
+        .meta { font-style: italic; font-size: 14px; margin-top: 6px; color: #444; }
+        .dateline { font-size: 12px; letter-spacing: 0.4px; margin-top: 2px; color: #666; }
+        .section {
+          column-count: 2; column-gap: 32px;
+          font-size: 15px; text-align: justify; margin-top: 18px;
+        }
+        .lead { font-size: 18px; font-weight: 800; margin: 10px 0 6px; }
+        ul { padding-left: 20px; margin: 8px 0 12px; }
+        ul li { margin-bottom: 6px; }
+        .footer {
+          text-align: center; font-size: 11px; letter-spacing: 0.3px;
+          margin-top: 30px; color: #555; border-top: 1px dashed #999; padding-top: 10px;
+        }
+        .stamp {
+          float: right;
+          border: 3px solid #b31212;
+          color: #b31212;
+          font-weight: 800;
+          font-size: 18px;
+          padding: 6px 12px;
+          transform: rotate(-9deg);
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        .note {
+          margin-top: 12px;
+          padding: 10px 12px;
+          border-left: 3px solid #b31212;
+          background: rgba(179,18,18,0.06);
+          font-style: italic;
+        }
+      </style>
+
+      <div class="newsletter">
+        <div class="masthead">
+          <div class="stamp">PARIS BUREAU</div>
+          <div class="title">The Lyon Herald</div>
+          <div class="meta">Section: National News / Paris Bureau</div>
+          <div class="dateline">November 10, 2023</div>
+        </div>
+
+        <div class="section">
+          <div>
+            <div class="lead">Incident at Galeries Lafayette: Police Crack Down on Juvenile "Luxury Theft"</div>
+
+            <p><strong>PARIS</strong> — A 14-year-old girl was taken into custody yesterday evening following a security incident at the flagship Galeries Lafayette store on Boulevard Haussmann.</p>
+
+            <p>According to police reports, store security intercepted the minor as she attempted to exit the premises with concealed high-end cosmetics and designer accessories valued at over €1,200.</p>
+
+            <p>The situation escalated when responding officers conducted a standard search of the suspect’s belongings. Sources close to the investigation confirmed to <em>The Herald</em> that a quantity of controlled substances—allegedly prescription painkillers not registered to the minor—were discovered in her handbag.</p>
+
+            <p>"We are seeing a disturbing trend of affluent youth engaging in high-risk recreational theft," said a spokesperson for the Paris Préfecture de Police. "When narcotics are involved, it crosses a line. The District Prosecutor intends to pursue charges to send a clear message."</p>
+          </div>
+
+          <div>
+            <p>The minor, whose identity is withheld due to her age, is believed to have family connections in the Lyon area. She is currently being held pending the arrival of a guardian.</p>
+
+            <p>The Prosecutor’s office declined to comment further on ongoing juvenile matters.</p>
+
+            <p class="lead">Editor's Note</p>
+            <div class="note">
+              Twelve hundred euros. And pills.<br/>
+              God help me. I fix other people's messes, but I didn't even see this building up in my own house.<br/><br/>
+              Julien said he would "handle it." I hate that I have to let him.
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">The Lyon Herald · National Desk · Paris/Lyon Edition</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

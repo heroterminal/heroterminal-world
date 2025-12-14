@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <defs>
+    <style>
+      .paper { fill: #f7f0de; stroke: #2d2a24; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="876" height="336" rx="14" class="paper"/>
+  <foreignObject x="22" y="22" width="856" height="316">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%; font-family:'Courier New', monospace; color:#2d2a24; display:flex; flex-direction:column; gap:14px; padding:6px; box-sizing:border-box;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div>
+          <div style="font-size:18px; font-weight:700; color:#1f2d25;">MOUILLETTE STRIP — VAULT FLOOR</div>
+          <div style="font-size:14px; margin-top:4px;">Stained paper strip. Handwritten: "Essai #402". Viscous yellow oil, spicy floral nose.</div>
+        </div>
+        <div style="background:#fff7c2; border:1.5px solid #2d2a24; border-radius:10px; padding:8px 10px; box-shadow:2px 2px 0 rgba(0,0,0,0.2);">
+          <div style="font-size:14px; font-weight:700; color:#1f2d25;">Lab Codes</div>
+          <div style="font-size:14px; margin-top:4px; font-weight:700;">#402 = Polianthes</div>
+          <div style="font-size:14px; font-weight:700;">tuberosa</div>
+          <div style="font-size:13px; color:#a83232; margin-top:2px;">not Rose line</div>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:18px; align-items:center; padding:10px 12px; background:#fdf9ec; border:1.5px solid #2d2a24; border-radius:12px; overflow:auto;">
+        <div style="width:520px; height:64px; background:#fdf9ec; border:1.5px solid #2d2a24; border-radius:8px; position:relative; box-shadow:1px 1px 0 rgba(0,0,0,0.15);">
+          <div style="position:absolute; left:16px; top:12px; width:120px; height:40px; background:#d7c3a3; opacity:0.55; border-radius:6px;"></div>
+          <div style="position:absolute; left:170px; top:16px; width:260px; height:32px; border-radius:10px; background:linear-gradient(90deg, rgba(240,214,127,0.9), rgba(208,169,76,0.7));"></div>
+          <div style="position:absolute; left:26px; top:20px; font-size:16px; font-weight:700; color:#1f2d25;">Essai #402</div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:4px; font-size:14px;">
+          <div style="color:#174132; font-weight:700;">Floral / creamy / spicy</div>
+          <div>Matches lab batch #402 → Tuberose (Polianthes tuberosa).</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

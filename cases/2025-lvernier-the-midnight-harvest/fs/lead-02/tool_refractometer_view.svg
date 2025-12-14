@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+  <defs>
+    <style>
+      .paper { fill: #f7f0de; stroke: #2d2a24; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="876" height="396" rx="14" class="paper"/>
+  <foreignObject x="22" y="22" width="856" height="376">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%; font-family:'Courier New', monospace; color:#2d2a24; padding:10px; box-sizing:border-box; display:flex; flex-direction:column; gap:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+        <div>
+          <div style="font-size:18px; font-weight:700; color:#1f2d25;">REFRACTOMETER — EYPIECE VIEW</div>
+          <div style="font-size:14px; margin-top:4px;">Align the blue/white split; the intersection gives the refractive index.</div>
+        </div>
+        <div style="background:#fff7c2; border:1.5px solid #2d2a24; border-radius:10px; padding:8px 10px; box-shadow:2px 2px 0 rgba(0,0,0,0.2);">
+          <div style="font-size:14px; font-weight:700;">Reference</div>
+          <div style="font-size:14px;">Rose Absolute: 1.510</div>
+          <div style="font-size:14px;">Phenyl Ethyl (synthetic): <span style="font-weight:700;">1.490</span></div>
+        </div>
+      </div>
+
+      <div style="flex:1; background:#0b0e11; border:2px solid #2d2a24; border-radius:14px; position:relative; overflow:hidden; min-height:220px;">
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, #0b0e11 0%, #0b0e11 48%, #e8f4ff 52%, #e8f4ff 100%);"></div>
+        <div style="position:absolute; left:50%; top:0; bottom:0; width:4px; background:#a83232;"></div>
+        <div style="position:absolute; left:50%; bottom:12px; transform:translateX(-50%); color:#f6ecd8; font-size:16px; font-weight:700; text-shadow:1px 1px 0 #0b0e11;">1.490</div>
+        <div style="position:absolute; left:16px; top:12px; color:#8fffa3; font-size:15px;">Sample: Essai #402</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

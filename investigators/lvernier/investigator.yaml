@@ -1,0 +1,18 @@
+key: "lvernier"
+display_name: "Luc Étienne Vernier"
+title: "Senior Forensic Consultant"
+location: "Lyon, France"
+
+author:
+  name: "HeroTerminal team"
+  github: "heroterminal"
+
+theme:
+  primary_color: "#00FF88"
+  style: "noir"
+
+bio: |
+  Independent consultant specializing in high-stakes data breaches and insider threats. 
+  Operates out of Vieux Lyon. Known for his refusal to use automated analysis tools.
+  "Logs don't lie. People do."
+

@@ -1,0 +1,84 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="paperNoiseJean">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="3" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f7f1e3"/>
+  <rect width="100%" height="100%" fill="transparent" filter="url(#paperNoiseJean)" opacity="0.4" pointer-events="none"/>
+
+  <foreignObject x="0" y="0" width="800" height="1200">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="height:100%; box-sizing:border-box; padding:50px;">
+      <style>
+        .newsletter {
+          height: 100%;
+          box-sizing: border-box;
+          background: linear-gradient(180deg, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.01) 100%);
+          color: #1c1c1c;
+          font-family: 'Times New Roman', Georgia, serif;
+          line-height: 1.45;
+        }
+        .masthead { text-align: center; margin-bottom: 16px; }
+        .title {
+          font-size: 36px; font-weight: 900; letter-spacing: 1.5px;
+          border-bottom: 3px solid #1c1c1c; display: inline-block;
+          padding-bottom: 6px; text-transform: uppercase;
+        }
+        .meta { font-style: italic; font-size: 14px; margin-top: 6px; color: #444; }
+        .dateline { font-size: 12px; letter-spacing: 0.4px; margin-top: 2px; color: #666; }
+        .section {
+          column-count: 2; column-gap: 32px;
+          font-size: 15px; text-align: justify; margin-top: 18px;
+        }
+        .lead { font-size: 18px; font-weight: 800; margin: 10px 0 6px; }
+        .footer {
+          text-align: center; font-size: 11px; letter-spacing: 0.3px;
+          margin-top: 30px; color: #555; border-top: 1px dashed #999; padding-top: 10px;
+        }
+        .note {
+          margin-top: 12px;
+          padding: 10px 12px;
+          border-left: 3px solid #1c1c1c;
+          background: rgba(0,0,0,0.04);
+          font-style: italic;
+        }
+      </style>
+
+      <div class="newsletter">
+        <div class="masthead">
+          <div class="title">The Lyon Herald</div>
+          <div class="meta">City Desk</div>
+          <div class="dateline">January 14, 2000</div>
+        </div>
+
+        <div class="section">
+          <div>
+            <div class="lead">Police Baffled by Disappearance of Senior Detective</div>
+            <p>The search for Detective Inspector Jean Vernier (53) entered its third day yesterday with no leads. Vernier, a decorated officer with the Lyon Police Nationale, was last seen leaving the precinct on Tuesday evening.</p>
+
+            <p>His vehicle, a grey Peugeot 505, was discovered abandoned near the banks of the Rhône river early Wednesday morning. Police confirm there were no signs of a struggle at the scene, and the keys were missing.</p>
+
+            <p>"Jean was a meticulous man," said Commissaire Gautier. "He does not just walk away. We are treating this as a criminal matter."</p>
+          </div>
+
+          <div>
+            <p>Vernier was reportedly working on a sensitive corruption case involving municipal contracts. Authorities have refused to comment on whether his disappearance is linked to his active caseload.</p>
+
+            <p>He leaves behind a wife and three children.</p>
+
+            <p class="lead">Personal Note (L.V.)</p>
+            <div class="note">
+              No skid marks. No forced entry.<br/>
+              The seat was adjusted for someone shorter.<br/>
+              Gautier knows. He has always known.
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">The Lyon Herald · City Desk · Morning Edition</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

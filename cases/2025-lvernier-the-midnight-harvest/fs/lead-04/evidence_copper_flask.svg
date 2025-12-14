@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+  <defs>
+    <style>
+      .paper { fill: #f7f0de; stroke: #2d2a24; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="876" height="496" rx="14" class="paper"/>
+  <foreignObject x="22" y="22" width="856" height="476">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%; font-family:'Courier New', monospace; color:#2d2a24; padding:10px; box-sizing:border-box; display:flex; flex-direction:column; gap:14px;">
+      <div style="font-size:18px; font-weight:700; color:#1f2d25;">EVIDENCE — COPPER FLASK</div>
+      <div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap;">
+        <div style="flex:1 1 320px; background:#fdf9ec; border:1.5px solid #2d2a24; border-radius:14px; padding:16px; box-shadow:1px 1px 0 rgba(0,0,0,0.15);">
+          <div style="width:210px; height:260px; margin:0 auto; position:relative; background:linear-gradient(180deg,#b87643 0%,#8a542b 50%,#6b3f21 100%); border-radius:30px 30px 18px 18px; border:3px solid #603913; box-shadow:inset 0 0 12px rgba(0,0,0,0.2);">
+            <div style="position:absolute; top:-24px; left:70px; width:70px; height:32px; background:#d9c9b1; border:2px solid #2d2a24; border-radius:12px 12px 6px 6px; box-shadow:inset 0 0 6px rgba(0,0,0,0.2);"></div>
+            <div style="position:absolute; bottom:12px; left:24px; width:160px; height:32px; background:rgba(255,255,255,0.08); border-radius:10px; border:1px dashed rgba(45,42,36,0.4);"></div>
+            <div style="position:absolute; top:16px; right:-32px; transform:rotate(8deg); background:#fceec6; border:1.2px solid #2d2a24; padding:6px 8px; width:120px; font-size:13px; line-height:1.3; box-shadow:2px 2px 0 rgba(0,0,0,0.18);">
+              Seal intact. Exterior dented. Soil on base.
+            </div>
+          </div>
+        </div>
+        <div style="flex:1 1 280px; display:flex; flex-direction:column; gap:8px; font-size:14px;">
+          <div style="font-weight:700; color:#1f2d25;">Findings</div>
+          <div>- Location: workers' shed behind cottages.</div>
+          <div>- Smell: metallic / acidic; no rose note.</div>
+          <div>- Interior: thin residue ring; no sediment.</div>
+          <div style="margin-top:10px; font-weight:700; color:#a83232;">Inference: original rose oil removed; container swapped and stashed.</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

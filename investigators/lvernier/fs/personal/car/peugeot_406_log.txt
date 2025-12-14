@@ -1,0 +1,13 @@
+VEHICLE: Peugeot 406 (1999)
+COLOR: Gris Thallium
+ENGINE: 2.0 HDi (Bulletproof)
+
+MAINTENANCE LOG:
+- Jan: Oil change. Mechanic tried to buy it. I said no.
+- Mar: Exhaust rattling. Fixed with wire.
+- Jun: AC failed. I prefer the windows down anyway.
+- Oct: Strange noise at 110km/h. It sounds like the fuel pump.
+       Or maybe the ghosts are rattling the chains.
+
+NEXT SERVICE:
+Check the suspension.
